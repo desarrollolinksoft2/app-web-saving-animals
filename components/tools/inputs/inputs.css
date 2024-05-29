@@ -1,0 +1,6 @@
+.o_select_file_button{
+    transition: opacity ease 400ms;
+    width: 26px;
+    height: 26px;
+    background: #FFF;
+}

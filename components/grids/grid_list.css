@@ -1,0 +1,19 @@
+.list_table {
+    @apply relative table-fixed box-border;
+    width: 100%;
+}
+.thead {
+    /* @apply sticky capitalize top-0 bg-gray-50; */
+    @apply sticky top-0 bg-gray-50;
+}
+.list-th-tr{
+    @apply  border-gray-300;
+    border-bottom-width: 1px;
+}
+.list-th-span{
+    @apply text-left box-border whitespace-nowrap overflow-hidden overflow-ellipsis;
+}
+.list-tr{
+    @apply cursor-pointer;
+    border-bottom-width: 1px;
+}
